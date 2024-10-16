@@ -2,5 +2,25 @@
 
 .cat-photo {
   margin: 10px;
-  max-width: 500px;
+  max-width: 200px;
+}
+.pic {
+  margin: 10px;
+  max-width: 200px;
+} 
+.hotwalk {
+  margin: 10px;
+  max-width: 150px;
+} 
+.running {
+  margin: 10px;
+  max-width: 200px;
+}
+.soccer {
+  margin: 10px;
+  max-width: 150px;
+}
+.dogs {
+  margin: 10px;
+  max-width: 200px;
 }
