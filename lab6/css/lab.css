@@ -6,4 +6,10 @@
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #DDD8C4;
-  }
+  } 
+
+  .bronco {
+    margin: 10px;
+    max-width: 400px;
+    float: right;
+  } 

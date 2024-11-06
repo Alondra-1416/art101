@@ -1,21 +1,25 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - purpose of lab 6 is to experiment with JavaScript arrays and objects.
+// Author: Alondra Hernandez
+// Date: October 24 2024 
 
 // Constants
 
 // Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+myTransport = ["Train", " Car"," Bike"," Bus"," Ferry"];
+//Main Ride 
+myMainRide = {
+  make: "Ford",
+  model: "Bronco",
+  color: "Blush Pink",
+  year: 1966, 
+  age: function() {
+    return 2024 - this.year;
+  }
+} 
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//output 
+document.writeln("The kind of transportation that I use: ", myTransport, "</br>"); 
+//Write object to document 
+document.writeln("My Main Ride: <pre>", 
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
