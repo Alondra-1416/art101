@@ -39,4 +39,11 @@ a{
 } 
 li{
   color: #f8cfe0;
-}
+} 
+
+.special {
+  background-color: #faece0;
+  border: dotted 14px #f985a8;
+  color: #f17388;
+  font-weight: bold;
+} 

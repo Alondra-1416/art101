@@ -1,0 +1,18 @@
+/*  styles for this lab page  */
+
+/*  class="minor-section" */ 
+
+.minor-section {
+    padding: 14px;
+    margin-bottom: 14px;
+    border: solid 2px #ffa0c7;
+    background-color: #f9cccc;
+  }  
+
+
+.special {
+    background-color: #f17908;
+    border: dotted 14px #410505;
+    color: #f30f35;
+    font-weight: bold;
+} 
