@@ -13,3 +13,13 @@
   body {
     background-color: #f19941;
   }  
+
+.felicity-line {
+    color: #f19941; 
+    font-style: italic;
+}
+
+.fox-line {
+    color: #ffdf06; 
+    font-weight: bold; 
+} 

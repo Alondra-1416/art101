@@ -1,0 +1,73 @@
+/*  styles for this lab page  */ 
+/* Kept the same style for lab 14 */ 
+
+/*  class="minor-section" */  
+
+#content{
+    padding: 14px;
+    margin-bottom: 14px;
+    border: solid 7px #ffdf06;
+    background-color: #982b00; 
+    color: #ffdf06; 
+  }  
+
+  body {
+    background-color: #f19941;
+  }  
+
+.felicity-line {
+    color: #f19941; 
+    font-style: italic;
+}
+
+.fox-line {
+    color: #ffdf06; 
+    font-weight: bold; 
+} 
+
+.lab10 {
+    margin: 10px;
+    max-width: 300px;
+    float: left;
+  } 
+
+  .lab14 {
+    margin: 10px;
+    max-width: 300px;
+    float: right;
+  }  
+
+  .image{
+    display: flex; 
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+    gap: 10px; 
+    margin-top: 20px;
+}
+
+.image img{
+    max-width: 45%; 
+    height: auto; 
+    display: block; 
+    border: 2px solid #ffdf06; 
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+
+    .image-container img {
+        max-width: 100%; 
+    }
+} 
+
+#make-convo {
+    background-color: #f19941; 
+    border: 2px solid #ffdf06;
+    color: #982b00;
+    padding: 10px 20px;
+    margin: 10px auto; 
+    display: block;
+}
