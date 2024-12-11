@@ -1,0 +1,20 @@
+/* CSS selector */
+
+.minor-section {
+    padding: 14px;
+    margin-bottom: 14px;
+    border: solid 7px #41a6de ;
+    background-color: #fedb02 ;
+  } 
+
+body{
+    background-color: #d01e00; 
+    color: #0a1c20
+}
+
+#prev, #next {
+    color: #fedb02; 
+    border-color: #0a1c20;
+    background-color: #d01e00 ;
+    border: 2px solid #f6343c;
+}
